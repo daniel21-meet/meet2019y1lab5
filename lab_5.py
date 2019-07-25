@@ -20,3 +20,10 @@ def list_match(list_one,list_two):
       newlist.append (list_one [2])
 
   return newlist
+
+def first_last6(nums):
+  if len (nums) > 0 and (nums[0] == 6 or nums[-1] == 6):
+    return True
+  else:
+    return False
+    
